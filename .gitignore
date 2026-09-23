@@ -1,0 +1,71 @@
+# Build trees and distribution packages (publish EXEs as release assets).
+/build*/
+/dist/
+/out/
+/cmake-build*/
+/test-output/
+*.exe
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.zip
+*.7z
+*.rar
+
+# Local game content. The reviewed clean-room HLE firmware is required to build.
+*.ngp
+*.ngc
+*.npc
+*.rom
+*.bin
+!/vendor/firmware/bios_hle.bin
+
+# Runtime data and diagnostic output.
+**/smoke-saves/
+**/saves/
+**/savestates/
+preferences.dat
+session.lock
+*.sram
+*.sav
+*.state
+*.log
+*.ppm
+*.tmp
+*.dmp
+
+# Python environments and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local editor/OS files.
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local secrets and signing material; keep public examples available.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+
+*.ngpsav

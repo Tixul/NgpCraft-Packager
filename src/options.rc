@@ -1,0 +1,36 @@
+#include <windows.h>
+300 DIALOGEX 0, 0, 346, 314
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Controls and settings"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT "Click a field, then press the key you want to assign.", -1, 12, 10, 322, 14
+    LTEXT "Tab: next field. Esc: cancel. F1-F12: player shortcuts.", -1, 12, 26, 322, 14
+    GROUPBOX "Keyboard", -1, 12, 44, 156, 164
+    LTEXT "Up", -1, 22, 61, 62, 12
+    EDITTEXT 310, 86, 58, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "Down", -1, 22, 81, 62, 12
+    EDITTEXT 311, 86, 78, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "Left", -1, 22, 101, 62, 12
+    EDITTEXT 312, 86, 98, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "Right", -1, 22, 121, 62, 12
+    EDITTEXT 313, 86, 118, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "NGPC A", -1, 22, 141, 62, 12
+    EDITTEXT 314, 86, 138, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "NGPC B", -1, 22, 161, 62, 12
+    EDITTEXT 315, 86, 158, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    LTEXT "NGPC Option", -1, 22, 181, 62, 12
+    EDITTEXT 316, 86, 178, 72, 15, ES_READONLY | ES_AUTOHSCROLL | WS_TABSTOP
+    GROUPBOX "Display and audio", -1, 178, 44, 156, 164
+    LTEXT "Window size", -1, 188, 61, 126, 12
+    COMBOBOX 320, 188, 77, 136, 100, CBS_DROPDOWNLIST | WS_TABSTOP | WS_VSCROLL
+    AUTOCHECKBOX "Fullscreen", 321, 188, 102, 136, 14
+    AUTOCHECKBOX "Integer scaling", 323, 188, 124, 136, 14
+    LTEXT "Volume (0 to 100%)", -1, 188, 151, 130, 12
+    EDITTEXT 322, 188, 170, 50, 16, ES_NUMBER | WS_TABSTOP
+    LTEXT "XInput controller: A / B / Start. The game pauses while settings are open.", -1, 12, 216, 322, 24
+    LTEXT "", 325, 12, 242, 322, 26
+    PUSHBUTTON "Restore defaults", 324, 12, 280, 106, 22
+    DEFPUSHBUTTON "Apply", IDOK, 178, 280, 74, 22
+    PUSHBUTTON "Cancel", IDCANCEL, 260, 280, 74, 22
+END

@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/Tixul/Ngpcraft_emulator",
+  "commit": "b2f8318b817dff486bf78c18c997459c36e0940c",
+  "abi": 18,
+  "sha256": {
+    "core/include/ngpc_core.h": "99792c926fa971edf97cecc3a96d79f36b2cf41c14258eefccd5433d25e37c86",
+    "core/src/apu.cpp": "2c9123b0f3d67393ec075b3f7eab7829f2bdcdac0df4a67f26a9ff16edef09d4",
+    "core/src/apu.hpp": "3c19db368db05e4deb6b62c8fa3ae433f58c8ae45f8d959b93ef2361ae505e3d",
+    "core/src/core.cpp": "8c43e91cf7c5ec6fae14d4dca474588299fd732b7ac653af9f52db69be10bfaa",
+    "core/src/execute.cpp": "b403ca392b3b878cdf9d84955499df3cc0f24c611e8bbb937d097f667ec383a0",
+    "core/src/machine.hpp": "da4be8611d73048aeaaf9c45864ff92debc50281035649dc65a4497df454114b",
+    "core/src/memory.cpp": "4b2c4c6f377577f8c238522b74af932e13cd367d12cfa315a406f5a87fd27124",
+    "core/src/mem_family.cpp": "d4682107a76695ad72c7c4f4144e989a374266ddd63f9bbe049178ff29970012",
+    "core/src/reg_family.cpp": "29f9a333512b98a4d215f7331be3774e504772e1aa48428f96068044854a1f1e",
+    "core/src/render.cpp": "4c01074453dd83338dd2d89c0e4427fa55b00b80f44404ed72f15a69e5786842",
+    "core/src/z80.cpp": "9bb95c3765a2a564d2f740476cd64c0251006c2080873078b556de84e8f76e51",
+    "core/src/z80.hpp": "589a5372a10664fa730eaf87923dd97f95a796db568cdc54018068d53383ed2e",
+    "firmware/bios_hle.bin": "11c2899850d56eff2ddcba4c0ef9ed7c5a8ea77f38fdcffc050c30295c6ac169"
+  }
+}

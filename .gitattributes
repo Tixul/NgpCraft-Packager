@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+# Preserve exact upstream bytes for the source provenance manifest.
+/vendor/core/** -text
+/vendor/firmware/bios_hle.bin binary
