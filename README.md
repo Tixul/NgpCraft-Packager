@@ -32,7 +32,7 @@ ROM size must be between 64 bytes and 4 MiB. ZIP files must be extracted first. 
 
 The Game menu provides the same actions. Keyboard bindings are configurable; function keys, Escape, Tab, standalone modifiers and system shortcuts are reserved. The first available XInput controller is used, including its D-pad and left stick.
 
-The game pauses during settings and when the window loses focus or is minimized. Apply stores changes; Cancel discards them. Restore defaults uses the settings embedded by the game creator. Integer scaling keeps regular pixels and margins; fit mode preserves the 160:152 aspect ratio while using the available space. The GDI presentation fix remains in place; see [VIDEO_FIX.md](VIDEO_FIX.md).
+The game pauses during settings and when the window loses focus or is minimized. Apply stores changes; Cancel discards them. Restore defaults uses the settings embedded by the game creator. Integer scaling keeps regular pixels and margins; fit mode preserves the 160:152 aspect ratio while using the available space.
 
 F2 has two separate sections: game credits/license, and the NgpCraft player/core/HLE MIT license. The texts are embedded, scrollable and selectable.
 
