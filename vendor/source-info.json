@@ -15,6 +15,6 @@
     "core/src/render.cpp": "4c01074453dd83338dd2d89c0e4427fa55b00b80f44404ed72f15a69e5786842",
     "core/src/z80.cpp": "9bb95c3765a2a564d2f740476cd64c0251006c2080873078b556de84e8f76e51",
     "core/src/z80.hpp": "589a5372a10664fa730eaf87923dd97f95a796db568cdc54018068d53383ed2e",
-    "firmware/bios_hle.bin": "11c2899850d56eff2ddcba4c0ef9ed7c5a8ea77f38fdcffc050c30295c6ac169"
+    "firmware/bios_hle.bin": "9112306f2d1ef29281604d7ee3b3e816b2b9cff04a93a4174f5d8181f06fd5da"
   }
 }
